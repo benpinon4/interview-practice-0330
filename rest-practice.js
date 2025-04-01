@@ -5,6 +5,8 @@ const priamryURL = "https://jsonplaceholder.typice.com/users";
 const statusCodeURL = "https://httpstat.us/{404}";
 
 const postCallURL = "https://jsonplaceholder.typicode.com/posts";
+
+
 const getDataArrayOfUsers = async () => {
   try {
     const dataResponse = await fetch(statusCodeURL);
@@ -33,3 +35,5 @@ async function makePostCall() {
 }
 
 makePostCall();
+
+
